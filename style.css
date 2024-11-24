@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: "font1";
+    src: url(Fonts/Roboto-Regular.ttf);
+}
+
+.hdr{
+    margin: auto;
+    max-width: 1440px;
+    height: 775px;
+    width: 100%;
+    background-image: url(image.jpeg);
+    background-position: center center;
+    background-size: 1440px 775px;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+}
+
+.lnk{
+    margin: auto;
+    margin-top: 37px;
+    width: 418px;
+    height: 47px;
+    background-color: #00000069;
+    border: none;
+    border-radius: 20px;
+}
+
+.lnk a{
+    float: left;
+    padding: 11px 25px;
+    font-family: font1;
+    font-size: 18px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.rb{
+    margin-top: -12px;
+    margin-left: 1150px;
+    width: 188px;
+    height: 293px;
+    background-image: url(redbull-photo.png);
+    background-repeat: no-repeat;
+    background-size: 188px 293px;
+    position: absolute;
+}
+
+.utb{
+    margin: auto;
+    margin-top: 256px;
+    margin-left: 675px;
+    width: 95px;
+    height: 70px;
+    background-image: url(YouTubebtn.png);
+    background-size: 90px 65px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.sn{
+    margin-top: 306px;
+    margin-left: 211px;
+    font-family: font1;
+    font-size: 15px;
+}
+
+.sn1{
+    margin-top: -2px;
+    margin-left: 209px;
+    width: 94px;
+    height: 1px;
+    background-color: #000000;
+}
+
+.sn2{
+    margin-top: 7px;
+    margin-left: 211px;
+    font-family: font1;
+    font-size: 36px;
+}
+
+.wv{
+    margin: auto;
+    margin-top: 16px;
+    margin-left: 212px;
+    width: 218px;
+    height: 46px;
+    background-color: #DB0A40;
+    border: none;
+    border-radius: 5px;
+    font-family: font1;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.lor{
+    margin-left: 212px;
+    margin-top: 30px;
+    display: flex;
+}
+.lor1{
+    font-family: font1;
+    font-size: 13px;
+}
+
+.lor11{
+    width: 122.75px;
+    height: 3px;
+    background-color: #868383;
+    border: none;
+}
+
+.lor111{
+    width: 90.76px;
+    height: 3px;
+    background-color: #B91313;
+    border: none;
+}
+
+.lor2, .lor3, .lor4, .lor5, .lor6, .lor7 {
+    padding-left: 20px;
+    font-family: font1;
+    font-size: 13px;
+}
+
+.lor21, .lor31, .lor41, .lor51, .lor61, .lor71 {
+    width: 122.75px;
+    height: 3px;
+    background-color: #424242;
+    border: none;
+}
+
+.lor12 {
+    padding-top: 10px;
+    color: #000000;
+}
+
+.lor22, .lor32, .lor42, .lor52, .lor62, .lor72 {
+    padding-top: 10px;
+    color: #424242;
+}
+
+.h2{
+    margin: auto;
+    margin-top: 27px;
+    font-family: font1;
+    font-size: 32px;
+    text-align: center;
+}
+
+.gr1{
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+    margin-left: 105px;
+    width: 1385px;
+    height: 675px;
+}
+
+.grp20{
+    margin-left: -5px;
+    width: 522px;
+    height: 671px;
+    background-image: url(Group20.png);
+    background-size: 521px 670px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.grp21{
+    margin: auto;
+    width: 425px;
+    height: 673px;
+    padding-top: 25px;
+    margin-left: 480px;
+    background-image: url(Group21.png);
+    background-size: 420px 669px;
+    background-repeat: no-repeat;
+    
+}
+
+.grp22{
+    margin: auto;
+    width: 425px;
+    height: 673px;
+    margin-left: 35px;
+    background-image: url(Group22.png);
+    background-size: 420px 669px;
+    background-repeat: no-repeat;
+    
+}
+
+.gr2{
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+    margin-left: 105px;
+    width: 1385px;
+    height: 672px;
+}
+
+.grp25{
+    margin: auto;
+    width: 425px;
+    height: 673px;
+    background-image: url(Group25.png);
+    background-size: 420px 669px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.grp26{
+    margin: auto;
+    width: 893.44px;
+    height: 979.31px;
+    padding-top: 25px;
+    margin-left: 11px;
+    background-image: url(Group26.png);
+    background-size: 888.44px 974.31px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.grp27{
+    margin: auto;
+    width: 425px;
+    height: 673px;
+    margin-left: 948px;
+    background-image: url(Group27.png);
+    background-size: 420px 668px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.ab1{
+    margin: auto;
+    margin-top: 46px;
+    margin-left: 650px;
+    width: 251.17px;
+    height: 53px;
+    background-color: #212360;
+    border: none;
+    border-radius: 5px;
+    font-family: font1;
+    font-size: 22px;
+    color: #FFFFFF;
+    text-align: center;
+    position: relative;
+}
+
+.ftr{
+    margin: auto;
+    margin-top: 46px;
+    width: 1441px;
+    height: 471px;
+    width: 100%;
+    background-color: #00162B;
+}
+
+.rdb1{
+    margin: auto;
+    margin-top: 35px;
+    margin-left: 49px;
+    width: 243px;
+    height: 53px;
+    background-image: url(redbullcomlogo1.png);
+    background-size: 238px 48px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.dd1{
+    margin: auto;
+    margin-top: 35px;
+    margin-left: 49px;
+    width: 190px;
+    height: 255px;
+}
+
+.dd1 a{
+    font-family: font1;
+    font-size: 18px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.dd2{
+    margin: auto;
+    margin-top: -5px;
+    margin-left: 49px;
+    width: 155px;
+    height: 80px;
+}
+
+.dd2 a{
+    font-family: font1;
+    font-size: 18px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.dd21{
+    width: 42px;
+    height: 42px;
+    margin-top: 7px;
+    background-image: url(instagram.png);
+    background-size: 41px 41px;
+    background-position: center center;
+}
+.dd22{
+    width: 42px;
+    height: 42px;
+    margin-top: -41px;
+    margin-left: 49px;
+    background-image: url(youtube.png);
+    background-size: 41px 41px;
+    background-position: center center;
+}
+
+.dd23{
+    width: 40px;
+    height: 40px;
+    margin-top: -41px;
+    margin-left: 97.5px;
+    background-image: url(facebook.png);
+    background-size: 35px 35px;
+    background-position: center center;
+}
+
+.dd3{
+    margin: auto;
+    margin-top: -325px;
+    margin-left: 575px;
+    width: 500px;
+    height: 300px;
+}
+
+.dd3 a{
+    font-family: font1;
+    font-size: 18px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.dd0{
+    width: 1100px;
+    height: 470px;
+    margin-left: 55px;
+}
+
+.dd4{
+    margin: auto;
+    margin-top: -405px;
+    margin-left: 1255px;
+    width: 184px;
+    height: 35px;
+    font-family: font1;
+    font-size: 14px;
+    color: #A6A6A6;
+}
